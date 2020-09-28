@@ -1,0 +1,6 @@
+def P(a=0)
+    return(a*4)
+def S(a=0)
+    return(a*a)
+a=int(input("Ведите сторону квадрата: "))
+print(S(a), "\n", P(a))
